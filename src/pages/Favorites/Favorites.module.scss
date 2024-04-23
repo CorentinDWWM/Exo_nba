@@ -1,0 +1,25 @@
+.main {
+  min-height: 100vh;
+  background-color: var(--primary);
+  .link {
+    color: var(--secondary);
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .list {
+    width: 500px;
+    min-height: 500px;
+    border: 2px solid var(--secondary);
+    background-color: var(--primary);
+    .display {
+      color: orangered;
+    }
+    .btnDelete {
+      border: 2px solid var(--primary);
+      color: var(--primary);
+      background-color: var(--secondary);
+    }
+  }
+}

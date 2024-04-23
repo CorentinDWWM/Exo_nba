@@ -1,0 +1,45 @@
+.main {
+  min-height: 100vh;
+  background-color: var(--primary);
+  .link {
+    color: var(--secondary);
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .searchBar {
+    padding: 10px 15px;
+    border: 2px solid var(--secondary);
+    border-radius: 20px;
+    background-color: var(--primary);
+    input {
+      outline: 0;
+      border: 0;
+      background-color: var(--primary);
+      color: var(--secondary);
+      &::placeholder {
+        color: white;
+      }
+    }
+  }
+  .btnSubmit {
+    background-color: var(--primary);
+    color: white;
+    border: 2px solid var(--secondary);
+  }
+  .list {
+    width: 500px;
+    min-height: 500px;
+    border: 2px solid var(--secondary);
+    background-color: var(--primary);
+    .display {
+      color: orangered;
+    }
+    .btnDelete {
+      border: 2px solid var(--primary);
+      color: var(--primary);
+      background-color: var(--secondary);
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@use "../../assets/styles/mixin" as mixin;
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  @include mixin.sm-lt {
+    width: 90%;
+  }
+
+  .presentation {
+    background-color: var(--primary);
+    padding: 30px;
+    color: white;
+  }
+
+  nav {
+    display: block;
+    @include mixin.sm-lt {
+      display: none;
+    }
+  }
+}
